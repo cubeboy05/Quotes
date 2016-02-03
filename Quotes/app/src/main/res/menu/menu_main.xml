@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      tools:context="com.example.karthik.quotes">
+    <item
+        android:id="@+id/social_share"
+        android:orderInCategory="100"
+        android:title="@string/nav_menu_title"
+        android:icon="@drawable/ic_action_social_share"
+        app:showAsAction="always"/>
+
+</menu>

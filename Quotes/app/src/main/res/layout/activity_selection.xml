@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.karthik.quotes.SelectionActivity"
+    android:background="#ff5722">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Love"
+        android:id="@+id/tvLoveCat"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textSize="40sp"
+        android:layout_marginTop="20dp"
+        android:onClick="chooseCategory" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fear"
+        android:id="@+id/tvFearCat"
+        android:layout_below="@+id/tvLoveCat"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textSize="40sp"
+        android:layout_marginTop="15dp"
+        android:onClick="chooseCategory" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Faith"
+        android:id="@+id/tvFaithCat"
+        android:layout_below="@+id/tvFearCat"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textSize="40sp"
+        android:layout_marginTop="15dp"
+        android:onClick="chooseCategory" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Humour"
+        android:id="@+id/tvHumourCat"
+        android:layout_below="@+id/tvFaithCat"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textSize="40sp"
+        android:layout_marginTop="15dp"
+        android:onClick="chooseCategory" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Poetry"
+        android:id="@+id/tvPoetryCat"
+        android:layout_below="@+id/tvHumourCat"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textSize="40sp"
+        android:layout_marginTop="15dp"
+        android:onClick="chooseCategory" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Science"
+        android:id="@+id/tvScienceCat"
+        android:layout_below="@+id/tvPoetryCat"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textSize="40sp"
+        android:layout_marginTop="15dp"
+        android:onClick="chooseCategory" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Happiness"
+        android:id="@+id/tvHappinessCat"
+        android:layout_below="@+id/tvScienceCat"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textSize="40sp"
+        android:layout_marginTop="15dp"
+        android:onClick="chooseCategory" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Inspiration"
+        android:id="@+id/tvInspirationCat"
+        android:layout_below="@+id/tvHappinessCat"
+        android:layout_alignStart="@+id/tvHappinessCat"
+        android:textStyle="bold|italic"
+        android:textSize="40sp"
+        android:layout_marginTop="15dp"
+        android:onClick="chooseCategory" />
+</RelativeLayout>
